@@ -1,6 +1,6 @@
-# 🤖 4 DOF Robotic Arm
+#  4 DOF Robotic Arm
 
-## 📘 Project Overview
+##  Project Overview
 This project involves the design and implementation of a **4 Degrees of Freedom (DOF) Robotic Arm** controlled using an **Arduino Uno** and **servo motors**. The arm is designed to replicate human arm motion, with precise and programmable movements for tasks such as picking, placing, and rotating objects.
 
 Developed as part of the *Machines and Mechanisms Lab Project*, the robotic arm demonstrates key mechanical, electrical, and programming principles of mechatronic systems.
@@ -9,7 +9,7 @@ Developed as part of the *Machines and Mechanisms Lab Project*, the robotic arm 
 
 ---
 
-## ⚙️ Components Used
+##  Components Used
 ### 1. **PWM Servo Motor**
 - Voltage (VCC): 3.3–5V  
 - Voltage (V+): 4.8–6VDC  
@@ -36,7 +36,7 @@ Developed as part of the *Machines and Mechanisms Lab Project*, the robotic arm 
 
 ---
 
-## 🔩 Working Principle
+##  Working Principle
 The robotic arm operates on **Pulse Width Modulation (PWM)** control for its servo motors, with the **Arduino Uno** generating PWM signals to control each joint:
 
 1. **Base Rotation (DOF 1):** Rotates the arm horizontally.  
@@ -48,7 +48,7 @@ By adjusting the pulse width, each motor achieves a specific angular position, a
 
 ---
 
-## 📐 Kinematic Analysis
+##  Kinematic Analysis
 The **degree of freedom (DOF)** is calculated using:
 DOF = 3(n - 1) - 2j - h
 
